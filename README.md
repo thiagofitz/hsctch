@@ -2,7 +2,7 @@
 
 #Acessar a pasta onde fez o o download o arquivo .git
 
-#para exeutar use o comando abaixo:
+#Para executar use o comando abaixo:
 
 #python3 /root/reconx-hsctch.py 
 
