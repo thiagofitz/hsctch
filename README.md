@@ -1,6 +1,6 @@
 # hsctch
 
-#Acessar a pasta onde fez o o download o arquivo .git
+#Acesse o diretorio onde fez o o download o arquivo .git
 
 #Para executar use o comando abaixo:
 
