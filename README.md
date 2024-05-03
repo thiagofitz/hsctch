@@ -1,9 +1,13 @@
 # hsctch
 
 #Acessar a pasta onde baixou o arquivo
+
 #Executa o comando abaixo:
+
 #python3 /root/reconx-hsctch.py 
+
 #Digite o domínio alvo (exemplo: dominio.com.br): 
+
 testphp.vulnweb.com
 
 
