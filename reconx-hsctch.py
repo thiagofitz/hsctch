@@ -14,7 +14,7 @@ def run_command(command, title, verbose=False):
     else:
         print(f"{title} concluído com sucesso.")
 
-# Domínio alvo inserido
+# Domínio do alvo
 domain = input("Digite o domínio alvo (exemplo: dominio.com.br): ")
 
 # Processos
@@ -37,7 +37,7 @@ commands = [
     "grep 'XSS FOUND' possible_xss.txt > resultado.txt"
 ]
 
-# Imprimir banner
+# banner
 print(r"""
  _    _  _____  _____ _______ _____ _    _
 | |  | |/ ____|/ ____|__   __/ ____| |  | |
