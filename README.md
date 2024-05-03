@@ -12,12 +12,14 @@ testphp.vulnweb.com
 
 
 
+
 _    _  _____  _____ _______ _____ _    _
 | |  | |/ ____|/ ____|__   __/ ____| |  | |
 | |__| | (___ | |       | | | |    | |__| |
 |  __  |\___ \| |       | | | |    |  __  |
 | |  | |____) | |____   | | | |____| |  | |
 |_|  |_|_____/ \_____|  |_|  \_____|_|  |_|
+
 
                                            
 
@@ -52,5 +54,14 @@ endpoint.txt  host.txt  possible_xss.txt  resultado.txt  subdomains.txt  xss_fuz
 XSS FOUND: http://testphp.vulnweb.com:80/hpp/index.php?pp=%22%22%3E%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E%22
 
 
+Obs: Para que o script funcione é necessário instalar os programas dos repositórios abaixo:
+
+https://github.com/tomnomnom/assetfinder
+
+https://github.com/takshal/freq
+
+https://github.com/tomnomnom/waybackurls
+
+https://github.com/tomnomnom/httprobe
 
 
